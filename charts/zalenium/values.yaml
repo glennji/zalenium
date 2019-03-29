@@ -139,8 +139,8 @@ persistence:
     size: 10Gi
 
 ingress:
-  enabled: false
-  tls: false
+  enabled: true
+  tls: true
   # secretName: my-tls-cert # only needed if tls above is true
   hostname: zalenium.foobar.com
   # If your ingress host name is shared with multiple
